@@ -28,8 +28,6 @@ public class QCar extends EntityPathBase<Car> {
 
     public final StringPath name = createString("name");
 
-    public final StringPath number = createString("number");
-
     public QCar(String variable) {
         this(Car.class, forVariable(variable), INITS);
     }

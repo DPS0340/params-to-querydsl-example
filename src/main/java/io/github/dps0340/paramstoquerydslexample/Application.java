@@ -31,8 +31,6 @@ public class Application implements CommandLineRunner {
 		Observable<String> companyNames = Observable.just("현대", "기아", "아우디", "벤츠", "BMW", "테슬라");
 		Observable<Company> companyObservable = companyNames.map(name -> Company.builder().name(name).build());
 
-		companyObservable.forEach(companyRepository::save);
-
 		Observable<String> carNames = Observable.just("쏘나타", "K5", "A8", "S클래스", "i8", "모델 X");
 		Observable<Car> carObservable = carNames.zipWith(companyObservable, (name, company) -> Car.builder().name(name).company(company).build());
 

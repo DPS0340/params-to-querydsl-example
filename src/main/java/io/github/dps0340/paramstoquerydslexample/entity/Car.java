@@ -21,5 +21,4 @@ public class Car {
     @OneToOne(targetEntity = Company.class, cascade = CascadeType.ALL)
     @JoinColumn(name = "company_id")
     private Company company;
-    private String number;
 }
