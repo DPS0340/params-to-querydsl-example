@@ -47,7 +47,8 @@ dependencies {
 	implementation group: 'com.querydsl', name: 'querydsl-apt', version: '4.4.0'
 	implementation group: 'com.querydsl', name: 'querydsl-core', version: '4.4.0'
 	implementation 'io.reactivex.rxjava3:rxjava:3.0.13-RC5'
-
+	annotationProcessor('org.projectlombok:lombok')
+	testAnnotationProcessor('org.projectlombok:lombok')
 
 }
 
