@@ -2,7 +2,7 @@
 
 GetMapping 파라미터를 바로 QueryDSL predicate로 파싱하고, 이걸 통해 데이터를 가져오는 예제 코드가 거의 없어서 직접 만들었습니다.
 
-## 예시 쿼리
+## Sample queries
 
 http://3.35.135.122:9095/cars
 
