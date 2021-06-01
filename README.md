@@ -6,7 +6,7 @@ GetMapping 파라미터를 바로 QueryDSL predicate로 파싱하고, 이걸 통
 
 http://3.35.135.122:9095/cars
 
-http://3.35.135.122:9095/company
+http://3.35.135.122:9095/companies
 
 http://3.35.135.122:9095/cars?name=모델%20X
 
